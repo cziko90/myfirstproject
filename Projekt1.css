@@ -1,0 +1,62 @@
+#main
+{
+  background: rgb(208,208,208) !important;
+}
+
+#main article
+{
+  margin: 2vw 0;
+  background: white;
+  padding: 20px;
+  border-radius: 0.8vw;
+}
+
+#caption
+{
+  color: rgb(104,104,104);
+  font-family: Monospace;
+  font-size: 1.2vw;
+  background-color: white;
+  padding: 0.4vw 0;
+}
+
+#obrazek a
+{
+  color: rgb(104,104,104);
+}
+
+#main footer
+{
+  background: white;
+  margin-bottom: 2vw;
+  padding: 0.4vw;
+  font-size: 1.2vw;
+  border-radius: 0.8vw;
+}
+
+#obrazek img
+{
+  border: 15px ridge;
+  height: auto;
+  width: 100%;
+}
+
+.box
+{
+  border: 5px solid black;
+  text-align: center;
+  background-color: white;
+  margin: 1.5vw 0;
+}
+
+.box h1
+{
+  font-size: 2.5vw;
+}
+
+.box h2
+{
+  font-size: 1.5vw;
+  font-style: oblique;
+  font-family: Monospace;
+}
