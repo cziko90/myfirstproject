@@ -1,8 +1,24 @@
-.jumbotron {
-    position: relative
-    background-color: black;
-    height: auto;
+#header
+{
+	background-color: grey;
 }
+
+a:link, a:visited
+{
+	color: white;
+}
+
+a:hover, a:active
+{
+	text-decoration: underline !important;
+	color: yellow;
+}
+
+nav a
+{
+text-transform: uppercase;
+}
+
 #kontener1 {
 	flex-wrap: wrap;
   	align-content: stretch;
@@ -20,7 +36,3 @@
 	display: inline;
 }
 
-#przyciski1 {
-	display: left;
-	margin-left: 0
-}
