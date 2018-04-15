@@ -1,0 +1,26 @@
+.jumbotron {
+    position: relative
+    background-color: black;
+    height: auto;
+}
+#kontener1 {
+	flex-wrap: wrap;
+  	align-content: stretch;
+  	display: block;
+    background-color: #C9E6FF;
+    height: auto;
+}
+
+#ja {
+	background-position: left; top;
+	height: 25%;
+}
+
+#imie {
+	display: inline;
+}
+
+#przyciski1 {
+	display: left;
+	margin-left: 0
+}
