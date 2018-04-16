@@ -11,12 +11,23 @@ a:link, a:visited
 a:hover, a:active
 {
 	text-decoration: underline !important;
-	color: yellow;
+	color: #EAE5E5
 }
 
 nav a
 {
 text-transform: uppercase;
+}
+
+.obrazek2
+{
+	background-image: url(Obrazek2.jpg);
+    height: auto;
+    position: relative;
+    opacity: 0.45;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #kontener1 {
