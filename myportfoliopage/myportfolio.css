@@ -1,6 +1,8 @@
 #header
 {
-	background-color: grey;
+	z-index: 1;
+	background-color: transparent;
+	position: relative;
 }
 
 a:link, a:visited
@@ -19,12 +21,14 @@ nav a
 text-transform: uppercase;
 }
 
-.obrazek2
+.tlo
 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0.65;
+	z-index: -1;
 	background-image: url(Obrazek2.jpg);
-    height: auto;
-    position: relative;
-    opacity: 0.45;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
